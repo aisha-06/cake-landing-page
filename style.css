@@ -1,0 +1,37 @@
+body
+{
+    .header-flex
+    {
+        display: flex;
+        margin: 10px;
+
+    }
+    .header-item-social
+    {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        justify-content:space-between;
+    }
+   .header-item-no
+   {
+    border: 10;
+    justify-content: space-between;
+   }
+
+
+    h1
+    {
+        font-family: sans-serif;
+        font-style: italic;
+        color: gold;
+        text-align: center;
+    }
+    h4
+    {
+        font-family: sans-serif;
+        font-style: italic;
+        color: gold;
+        text-align: center;
+    }  
+    }
