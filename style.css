@@ -4,6 +4,7 @@ body
     {
         display: flex;
         margin: 10px;
+        justify-content: space-between;
 
     }
     .header-item-social
@@ -11,27 +12,59 @@ body
         display: flex;
         padding: 10px;
         margin: 10px;
-        justify-content:space-between;
+       
     }
-   .header-item-no
-   {
-    border: 10;
-    justify-content: space-between;
-   }
+    .fb
+    {
+        margin: 5px;
+    }
+    .insta
+    {
+        margin: 5px;
+    }
+    .X
+    {
+      margin: 5px;
+    }
 
+    .header-item-text
+    {
+        
+        padding: 10px;
+       
+    }
+
+   .btn-call
+   {
+    border-color: #E5BF4A;
+    background-color: black;
+
+
+   }
+   .btn-call:hover
+   {
+
+    background-color:#E5BF4A;
+    color:white;
+    
+    
+
+
+
+   }
 
     h1
     {
         font-family: sans-serif;
         font-style: italic;
         color: gold;
-        text-align: center;
+        /* text-align: center; */
     }
-    h4
+    .header-callus-text
     {
         font-family: sans-serif;
         font-style: italic;
         color: gold;
-        text-align: center;
+        
     }  
-    }
+}
