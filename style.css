@@ -119,5 +119,15 @@ body
         color: white;
         justify-content: center;
     }
-    
+    .bg-cup-text    
+    {
+        color:white;
+        position: absolute;
+        top: 320px;
+        padding-right: 50px;
+        font-size: xx-large;
+        font-family:"Poiret One", cursive;
+        font-weight: 70;
+
+    }
 }
