@@ -4,27 +4,73 @@ body
     {
         display: flex;
         margin: 10px;
+        padding: 15px;
         justify-content: space-between;
 
     }
     .header-item-social
     {
         display: flex;
-        padding: 10px;
-        margin: 10px;
+        color: white;
+        
        
     }
     .fb
     {
-        margin: 5px;
+        margin: 10px;
+    }
+    .fb-btn
+    {
+        color: white;
+        border-color: black;
+        background-color: black;
+        border: none;
+       
+ 
+    }
+    .fb-btn:hover
+    {
+       color:#E5BF4A ;
+       
+       -webkit-transform:scale(-1);
+       transform:scaleX(-1);
+    
+          
     }
     .insta
     {
-        margin: 5px;
+        margin: 10px;
     }
+    .ig-btn
+    {
+        color: white;
+        border-color: black;
+        background-color: black;
+        border: none; 
+    }
+    .ig-btn:hover
+    {
+        color:#E5BF4A ;
+        -webkit-transform:scale(-1);
+        transform:scaleX(-1);
+    }
+
     .X
     {
-      margin: 5px;
+      margin: 10px;
+    }
+    .x-btn
+    {
+        color: white;
+        border-color: black;
+        background-color: black;
+        border: none;
+    }
+    .x-btn:hover
+    {
+        color:#E5BF4A ;
+        -webkit-transform:scale(-1);
+        transform:scaleX(-1); 
     }
 
     .header-item-text
@@ -34,39 +80,44 @@ body
        
     }
 
-   .btn-call
+   
+   
+
+    .header-text
+    {
+        font-family: "Jost", sans-serif;
+        font-style:italic;
+        color:#E5BF4A;        
+    }
+
+    .header-callus-text
+    {
+        font-family:"Jost", sans-serif;
+        font-style: italic;
+        color: gold;
+        
+    }  
+    .btn-call
    {
     border-color: #E5BF4A;
     background-color: black;
     color: #E5BF4A;
 
 
-   }
-   .btn-call:hover
+   } 
+    .btn-call:hover
    {
+    color: white;
     background-color:#E5BF4A;
-    color:white;
-    
-    
-   }
-
-    h1
-    {
-        font-family: sans-serif;
-        font-style: italic;
-        color: gold;        
     }
-    .header-callus-text
-    {
-        font-family: sans-serif;
-        font-style: italic;
-        color: gold;
-        
-    }  
-    .header2-flex
+
+    
+  .header2-flex
     {
         display: flex;
-        gap: 10px;
+        gap: 40px;
+        color: white;
         justify-content: center;
     }
+    
 }
