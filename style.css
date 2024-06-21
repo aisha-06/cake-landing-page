@@ -158,10 +158,77 @@ body
     {
         color: white;
         font-family: "Poiret One", cursive;
-        font-size: 50x;
+        font-size: 90x;
         font-weight: 400;
     }
+    .flex2-txt-img
+    {
+        color: white;
+        display: flex;
+        padding: 30px;
+        margin: 60px;
+        justify-content: center;
+    }
+    .schilers-text-h2
+    {
+        font-family: "Poiret One", cursive;
+        font-size: 20x;
+        font-weight: 400;
+        color: #E5BF4A;
+    }
+    .f2-text
+    {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Poiret One", cursive;
+        
+    }
+    
+    .order-cake-flex3
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+        
+    }
+    .cake-cashmere-text
+    {
+        color: white;
+        font-family: "Poiret One", cursive;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .cake-cashmere-price
+    {
+        color: #E5BF4A;
+        font-family: "Jost",sans-serif;
+        font-size: 20px;
+        font-weight: 400;
 
+    }
+    .cake-delightful-text
+    {
+        color: white;
+        font-family: "Poiret One", cursive;
+        font-size: 25px;
+        font-weight: 400;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+
+    }
+    .cake-delightful-price
+    {
+        color: #E5BF4A;
+        font-family: "Jost",sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+        line-height: 1x;
+
+    }
 
 
 
