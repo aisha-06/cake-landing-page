@@ -81,27 +81,20 @@ body
     }
 
    
-   
-
     .header-text
     {
-        font-family: "Jost", sans-serif;
+        font-family: "Jost", sans-serif ,cursive;
         font-style:italic;
         color:#E5BF4A;        
     }
 
-    .header-callus-text
-    {
-        font-family:"Jost", sans-serif;
-        font-style: italic;
-        color: gold;
-        
-    }  
+    
     .btn-call
    {
     border-color: #E5BF4A;
     background-color: black;
     color: #E5BF4A;
+    font-family: "Jost",sans-serif;
 
 
    } 
@@ -118,16 +111,58 @@ body
         gap: 40px;
         color: white;
         justify-content: center;
+        position: sticky;
     }
     .bg-cup-text    
     {
         color:white;
         position: absolute;
-        top: 320px;
+        top: 350px;
+        margin-left: 90px;
         padding-right: 50px;
-        font-size: xx-large;
+        font-size: 40px;
         font-family:"Poiret One", cursive;
-        font-weight: 70;
+        font-weight:400;
+    }
+
+    .order-btn-div
+    {
+        position:absolute;
+        top: 630px;
+        
+        
+    }
+    
+    .order-btn
+    {
+    
+        color:black;
+        background-color:#E5BF4A;
+        border-color: #E5BF4A;
+        font-size:large;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        margin-left: 100px;
+        font-family: Arial;
 
     }
+    .order-btn:hover
+    {
+      color: #E5BF4A;
+      border-color: #E5BF4A;
+      background-color: black;
+    }
+    .schilers-text
+    {
+        color: white;
+        font-family: "Poiret One", cursive;
+        font-size: 50x;
+        font-weight: 400;
+    }
+
+
+
+
 }
