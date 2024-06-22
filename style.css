@@ -206,6 +206,29 @@ body
         font-weight: 400;
 
     }
+
+    .cashmere-btn
+    {
+        position: absolute;
+        top: 2002px;
+        height: 40px;
+        /* display: none; */
+        
+        
+    }
+    .cashmere-btn:hover
+    {
+        background-color: #E5BF4A;
+        /* display:block; */
+        color: black;
+        width: 450px;
+        border-color: #E5BF4A;
+        
+    }
+
+
+
+
     .cake-delightful-text
     {
         color: white;
@@ -228,6 +251,22 @@ body
         margin-left: 15px;
         
 
+    }
+    .delightful-btn
+    {
+     position: absolute;
+     justify-content: center;
+    align-content: center;
+    top: 2002px;
+    height: 40px;
+    }
+    .delightful-btn:hover
+    {
+        background-color: #E5BF4A;
+        /* display:block; */
+        color: black;
+        width: 450px;
+        border-color: #E5BF4A;
     }
 
     .cake-suprise-text
@@ -252,6 +291,22 @@ body
         justify-content:end;
         margin-left: 20px;
 
+    }
+    .suprise-btn
+    {
+        position: absolute;
+        justify-content:end;
+       align-content:end;
+       top: 2002px;
+       height: 40px;
+    }
+    .suprise-btn:hover
+    {
+        background-color: #E5BF4A;
+        /* display:block; */
+        color: black;
+        width: 450px;
+        border-color: #E5BF4A;
     }
 
 
