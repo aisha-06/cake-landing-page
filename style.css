@@ -308,6 +308,15 @@ body
         width: 450px;
         border-color: #E5BF4A;
     }
-
-
+  .play-icon
+  {
+    color: #E5BF4A;
+    position: absolute;
+    size: 900px;
+    justify-content: center;
+    align-items: center;
+    top: 2500px;
+    left: 760px;
+    width: 100px;
+  }
 }
