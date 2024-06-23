@@ -355,7 +355,8 @@ body
     border: 0.2px solid rgb(100, 95, 95);
    border-left: none;
    border-right: none;
-    margin: 90px;
+    margin: 100px;
+    padding: 10px;
   }
   .review1-star,.review2-star,.review3-star
   {
@@ -365,10 +366,7 @@ body
      
     
   }
-  .review1-star 
-  {
-    
-  }
+  
   .para-review1
   {
     margin-right: 60px;
@@ -429,4 +427,101 @@ body
   {
     justify-content: end;
   }
+  .cust-name1,.cust-name2, .cust-name3
+  {
+    color:white;
+    font-family: "Poiret One", cursive;
+        font-size: 20px;
+        font-weight: 400;
+
+
+  }
+
+  .img-text-cust-div
+  {
+    display: flex;
+    
+ 
+  }
+  .cust-img-div
+  {
+    margin-top: 15px;
+  }
+
+  .cust-name-div
+  {
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+  }
+  .blog-text
+  {
+    color:white;
+    font-family: "Poiret One", cursive;
+        font-size: 40px;
+        font-weight: 400;
+        margin-left: 100px;
+  }
+  .blog-div
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .blog-btn
+  {
+    font-family: "Jost",sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    color: black;
+    background-color:#E5BF4A;
+    border-color: #E5BF4A;
+    margin-right: 100px;
+
+  }
+
+
+  .blog-btn:hover
+  {
+    color: #E5BF4A;
+    border-color: #E5BF4A;
+    background-color: black;
+  }
+
+.recipe-flex
+{
+  display: flex;
+  /* margin: 20px; */
+  /* border: 1px solid rgb(100, 95, 95); */
+  justify-content: space-between;
+
+}
+.recipe-para
+{
+  color: white;
+  font-family: "Jost",sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 15px;
+}
+.h3-recipe
+{
+  color:#E5BF4A;
+  font-family: "Jost",sans-serif;
+        font-size: 15px;
+}
+.recipe1-flex
+{
+  border: 1px solid rgb(100, 95, 95);
+  
+}
+.recipe2-flex
+{
+  border: 1px solid rgb(100, 95, 95);
+ 
+}
+}
+
+
+
+
 }
