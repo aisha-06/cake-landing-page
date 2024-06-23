@@ -352,9 +352,10 @@ body
   {
     display: flex;
     justify-content: space-between;
-    border: 10px;
-    border-color: white ;
-    box-sizing: border-box;
+    border: 0.2px solid rgb(100, 95, 95);
+   border-left: none;
+   border-right: none;
+    margin: 90px;
   }
   .review1-star,.review2-star,.review3-star
   {
@@ -363,6 +364,14 @@ body
     list-style: none;
      
     
+  }
+  .review1-star 
+  {
+    
+  }
+  .para-review1
+  {
+    margin-right: 60px;
   }
   .para-review1,.para-review2,.para-review3
   {
@@ -374,21 +383,46 @@ body
   }
   .review1
   {
-    border: 10px;
-    border-color: white;
-    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(100, 95, 95);
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+  }
+  .review2
+  {
+    border: 1px solid rgb(100, 95, 95);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    
   }
   .para-review2
   {
     justify-content: center;
+    margin-right: 90px;
+   
+
   }
 
   .review2-star
   {
-    justify-content: center;
+    margin-left: 10px;
+    justify-content: 20px;
+    margin-right: 120px;
+    margin-top: 40px;
+   
+
+  }
+  .review3
+  {
+    margin: 10px;
+    padding: 10px;
   }
   .review3-star
   {
+    margin-right: 110px;
     justify-content: end;
   }
   .para-review3
