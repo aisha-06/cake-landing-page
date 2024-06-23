@@ -310,7 +310,7 @@ body
     }
   .play-icon
   {
-    color: #E5BF4A;
+    color:black;
     position: absolute;
     size: 900px;
     justify-content: center;
@@ -318,5 +318,81 @@ body
     top: 2500px;
     left: 760px;
     width: 100px;
+  }
+  .icon-btn
+  {
+    position: absolute;
+    color:#E5BF4A;
+    background-color: #E5BF4A;
+    border-radius: 50%;
+    border-color: #E5BF4A;
+    width: 100px;
+    height: 100px;
+    top:2475px ;
+    
+  }
+
+  .icon-btn:hover
+  {
+    background-color:lightyellow
+
+  }
+
+  .food-lover-says-text
+  {
+    color: white;
+        font-family: "Poiret One", cursive;
+        font-size: 45px;
+        font-weight: 400;
+  }
+
+
+
+  .review-flex
+  {
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+    border-color: white ;
+    box-sizing: border-box;
+  }
+  .review1-star,.review2-star,.review3-star
+  {
+    display: flex;
+    color: #E5BF4A;
+    list-style: none;
+     
+    
+  }
+  .para-review1,.para-review2,.para-review3
+  {
+   color: white;
+   font-family: "Poiret One", cursive;
+        font-size: 20px;
+        font-weight: 400;
+  
+  }
+  .review1
+  {
+    border: 10px;
+    border-color: white;
+    border-radius: 5px;
+  }
+  .para-review2
+  {
+    justify-content: center;
+  }
+
+  .review2-star
+  {
+    justify-content: center;
+  }
+  .review3-star
+  {
+    justify-content: end;
+  }
+  .para-review3
+  {
+    justify-content: end;
   }
 }
