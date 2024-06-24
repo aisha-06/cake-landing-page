@@ -1,5 +1,4 @@
-body
-{
+
     .header-flex
     {
         display: flex;
@@ -341,12 +340,10 @@ body
   .food-lover-says-text
   {
     color: white;
-        font-family: "Poiret One", cursive;
-        font-size: 45px;
-        font-weight: 400;
+    font-family: "Poiret One", cursive;
+    font-size: 45px;
+    font-weight: 400;
   }
-
-
 
   .review-flex
   {
@@ -518,10 +515,4 @@ body
 {
   border: 1px solid rgb(100, 95, 95);
  
-}
-}
-
-
-
-
 }
