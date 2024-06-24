@@ -599,4 +599,31 @@
   text-decoration-color: #E5BF4A;
   text-decoration-thickness: 3px;
 }
-
+.contact-footer
+{
+  display: flex;
+  border: 1px solid  rgb(100, 95, 95);
+  border-left: none;
+  border-right: none;
+}
+.social-footer-ul
+{
+  list-style: none;
+  padding: 10px;
+}
+.btn-social-footer 
+{
+  color:white;
+  font-family: "Jost",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: black;
+  border-color:white ;
+  width: 180px;
+  height: 60px;
+}
+.btn-social-footer:hover
+{
+  color: #E5BF4A;
+  border-color: #E5BF4A;
+}
