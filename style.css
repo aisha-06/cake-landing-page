@@ -1,4 +1,5 @@
 
+    
     .header-flex
     {
         display: flex;
@@ -70,6 +71,13 @@
         color:#E5BF4A ;
         -webkit-transform:scale(-1);
         transform:scaleX(-1); 
+    }
+    .bg-cupcake
+    {
+     
+      background-size: contain;
+      background-repeat: repeat;
+      
     }
 
     .header-item-text
@@ -159,6 +167,8 @@
         font-family: "Poiret One", cursive;
         font-size: 90x;
         font-weight: 400;
+        
+        margin-left: 500px;
     }
     .flex2-txt-img
     {
@@ -227,9 +237,6 @@
         visibility: visible;
         
     }
-
-
-
 
     .cake-delightful-text
     {
@@ -317,7 +324,7 @@
     size: 900px;
     justify-content: center;
     align-items: center;
-    top: 2500px;
+    top: 2425px;
     left: 760px;
     width: 100px;
   }
@@ -330,7 +337,8 @@
     border-color: #E5BF4A;
     width: 100px;
     height: 100px;
-    top:2475px ;
+    top:2400px ;
+    justify-content: center;
     
   }
 
@@ -338,6 +346,10 @@
   {
     background-color:lightyellow
 
+  }
+  .video-div
+  {
+    justify-content: center;
   }
 
   .food-lover-says-text
@@ -519,3 +531,72 @@
   border: 1px solid rgb(100, 95, 95);
  
 }
+.follow-text
+{
+  color:white;
+    font-family: "Poiret One", cursive;
+        font-size: 40px;
+        font-weight: 400;
+        margin-left: 530px;
+        padding: 20px;
+}
+.follow-ul
+{
+  display: flex;
+ 
+  justify-content: center;
+  
+}
+.follow-btn
+{
+  background-color: black;
+  border-color: #E5BF4A;
+  color: #E5BF4A;
+  justify-content: center;
+  align-items: center;
+  margin-left: 640px;
+  width: 180px;
+  height: 60px;
+}
+.cake-pic-ul
+{
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+.cake-div-pic
+{
+  /* display: flex; */
+  margin-left: 40px;
+  padding: 20px;
+}
+.footer-ul
+{
+  display: flex;
+  color:black;
+  list-style: none;
+  margin-right: 90px;
+  
+}
+.footer-div
+{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-btn-home ,.footer-btn-cake ,.footer-btn-blog ,.footer-btn-contact ,.footer-btn-about
+{
+  color: white;
+  font-family: "Jost",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: black;
+  border: none;
+}
+.footer-btn-cake:hover ,.footer-btn-about:hover,.footer-btn-blog:hover ,.footer-btn-home:hover ,.footer-btn-contact:hover
+{
+  color: #E5BF4A;
+  text-decoration:underline;
+  text-decoration-color: #E5BF4A;
+  text-decoration-thickness: 3px;
+}
+
