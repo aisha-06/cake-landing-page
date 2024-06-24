@@ -216,22 +216,22 @@
 
     }
 
-    .cashmere-btn
+    /* .cashmere-btn
     {
       position: absolute;
-      /* visibility: hidden; */
+      visibility: hidden;
       left: 59px;
       background-color: #E5BF4A;
-      /* display: block; */
+      display: block;
       top: 468%;
       height: 41px;
-      /* bottom: -48px; */
+      bottom: -48px;
       color: black;
       width: 444px;
       border-color: #E5BF4A;
       visibility: hidden;
         
-    }
+    } */
     .order-img:hover .cashmere-btn
     {
         visibility: visible;
@@ -261,62 +261,60 @@
         
 
     }
-    .delightful-btn
-    {
+/* .delightful-btn
+{
      position: absolute;
      justify-content: center;
     align-content: center;
     top: 2002px;
     height: 40px;
-    }
-    .delightful-btn:hover
-    {
-        background-color: #E5BF4A;
-        /* display:block; */
-        color: black;
-        width: 450px;
-        border-color: #E5BF4A;
-    }
+ } */
+.delightful-btn:hover
+{
+   background-color: #E5BF4A;
+   color: black;
+   width: 450px;
+   border-color:#E5BF4A;
+}
 
-    .cake-suprise-text
-    {
-        color: white;
-        font-family: "Poiret One", cursive;
-        font-size: 25px;
-        font-weight: 400;
-        align-items:end ;
-        justify-content:end;
-        margin-left: 20px;
+ .cake-suprise-te
+ {
+  color: white;
+  font-family: "Poiret One", cursive;
+  font-size: 25px;
+  font-weight: 400;
+  align-items:end ;
+  justify-content:end;
+  margin-left: 20px;
 
-    }
+}
 
-    .cake-suprise-price
-    {
-        color: #E5BF4A;
-        font-family: "Jost",sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        align-items:end ;
-        justify-content:end;
-        margin-left: 20px;
+.cake-suprise-price
+{
+   color: #E5BF4A;
+   font-family: "Jost",sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   align-items:end ;
+   justify-content:end;
+   margin-left: 20px;
 
-    }
-    .suprise-btn
-    {
-        position: absolute;
-        justify-content:end;
-       align-content:end;
-       top: 2002px;
-       height: 40px;
-    }
-    .suprise-btn:hover
-    {
-        background-color: #E5BF4A;
-        /* display:block; */
-        color: black;
-        width: 450px;
-        border-color: #E5BF4A;
-    }
+}
+/* .suprise-btn
+{
+ position: absolute;
+  justify-content:end;
+  align-content:end;
+  top: 2002px;
+  height: 40px;
+} */
+.suprise-btn:hover
+{
+   background-color: #E5BF4A;
+   color: black;
+   width: 450px;
+   border-color:#E5BF4A;
+  }
   .play-icon
   {
     color:black;
@@ -339,9 +337,7 @@
     height: 100px;
     top:2400px ;
     justify-content: center;
-    
   }
-
   .icon-btn:hover
   {
     background-color:lightyellow
@@ -351,7 +347,6 @@
   {
     justify-content: center;
   }
-
   .food-lover-says-text
   {
     color: white;
@@ -359,14 +354,13 @@
     font-size: 45px;
     font-weight: 400;
   }
-
   .review-flex
   {
     display: flex;
     justify-content: space-between;
     border: 0.2px solid rgb(100, 95, 95);
-   border-left: none;
-   border-right: none;
+    border-left: none;
+    border-right: none;
     margin: 100px;
     padding: 10px;
   }
@@ -374,11 +368,8 @@
   {
     display: flex;
     color: #E5BF4A;
-    list-style: none;
-     
-    
+    list-style: none; 
   }
-  
   .para-review1
   {
     margin-right: 60px;
@@ -387,8 +378,8 @@
   {
    color: white;
    font-family: "Poiret One", cursive;
-        font-size: 20px;
-        font-weight: 400;
+   font-size: 20px;
+   font-weight: 400;
   
   }
   .review1
@@ -411,9 +402,7 @@
   .para-review2
   {
     justify-content: center;
-    margin-right: 90px;
-   
-
+    margin-right: 90
   }
 
   .review2-star
@@ -422,8 +411,6 @@
     justify-content: 20px;
     margin-right: 120px;
     margin-top: 40px;
-   
-
   }
   .review3
   {
@@ -443,17 +430,13 @@
   {
     color:white;
     font-family: "Poiret One", cursive;
-        font-size: 20px;
-        font-weight: 400;
-
-
+    font-size: 20px;
+    font-weight: 400;
   }
 
   .img-text-cust-div
   {
-    display: flex;
-    
- 
+    display: fle
   }
   .cust-img-div
   {
@@ -470,9 +453,9 @@
   {
     color:white;
     font-family: "Poiret One", cursive;
-        font-size: 40px;
-        font-weight: 400;
-        margin-left: 100px;
+     font-size: 40px;
+     font-weight: 400;
+     margin-left: 100px;
   }
   .blog-div
   {
@@ -482,15 +465,13 @@
   .blog-btn
   {
     font-family: "Jost",sans-serif;
-        font-size: 18px;
-        font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
     color: black;
-    background-color:#E5BF4A;
-    border-color: #E5BF4A;
+  background-color: #E5BF4A;
+    border-color:#E5BF4A; 
     margin-right: 100px;
-
   }
-
 
   .blog-btn:hover
   {
@@ -502,8 +483,6 @@
 .recipe-flex
 {
   display: flex;
-  /* margin: 20px; */
-  /* border: 1px solid rgb(100, 95, 95); */
   justify-content: space-between;
 
 }
@@ -511,9 +490,9 @@
 {
   color: white;
   font-family: "Jost",sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        margin: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 15px;
 }
 .h3-recipe
 {
@@ -533,12 +512,12 @@
 }
 .follow-text
 {
-  color:white;
+    color:white;
     font-family: "Poiret One", cursive;
-        font-size: 40px;
-        font-weight: 400;
-        margin-left: 530px;
-        padding: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 530px;
+    padding: 20px;
 }
 .follow-ul
 {
@@ -605,6 +584,9 @@
   border: 1px solid  rgb(100, 95, 95);
   border-left: none;
   border-right: none;
+  padding: 30px;
+  justify-content: space-between;
+  margin: 20px;
 }
 .social-footer-ul
 {
@@ -626,4 +608,45 @@
 {
   color: #E5BF4A;
   border-color: #E5BF4A;
+}
+.footer-calling-no
+{
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.footer-calling-no:hover
+{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.contact-footer-para
+{
+  color: white;
+  font-family: "Jost",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px;
+  padding: 10px;
+   margin-left: 10p
+
+}
+.div-loc-footer
+{
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+.div-contact-footer
+{
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.last-footer
+{
+  
+  margin-left: 500px;
 }
