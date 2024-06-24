@@ -208,20 +208,23 @@
 
     .cashmere-btn
     {
-        position: absolute;
-        top: 2002px;
-        height: 40px;
-        /* display: none; */
-        
+      position: absolute;
+      /* visibility: hidden; */
+      left: 59px;
+      background-color: #E5BF4A;
+      /* display: block; */
+      top: 468%;
+      height: 41px;
+      /* bottom: -48px; */
+      color: black;
+      width: 444px;
+      border-color: #E5BF4A;
+      visibility: hidden;
         
     }
-    .cashmere-btn:hover
+    .order-img:hover .cashmere-btn
     {
-        background-color: #E5BF4A;
-        /* display:block; */
-        color: black;
-        width: 450px;
-        border-color: #E5BF4A;
+        visibility: visible;
         
     }
 
