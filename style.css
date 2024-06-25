@@ -1,4 +1,7 @@
-
+body
+{
+  background-color: black;
+}
     
     .header-flex
     {
@@ -6,14 +9,11 @@
         margin: 10px;
         padding: 15px;
         justify-content: space-between;
-
     }
     .header-item-social
     {
         display: flex;
-        color: white;
-        
-       
+        color: white;   
     }
     .fb
     {
@@ -73,37 +73,29 @@
         transform:scaleX(-1); 
     }
     .bg-cupcake
-    {
-     
+    { 
       background-size: contain;
-      background-repeat: repeat;
-      
+      background-repeat: repeat;  
     }
 
     .header-item-text
-    {
-        
+    {  
         padding: 10px;
        
     }
-
-   
     .header-text
     {
         font-family: "Jost", sans-serif ,cursive;
         font-style:italic;
         color:#E5BF4A;        
     }
-
     
     .btn-call
    {
-    border-color: #E5BF4A;
-    background-color: black;
-    color: #E5BF4A;
-    font-family: "Jost",sans-serif;
-
-
+     border-color: #E5BF4A;
+     background-color: black;
+     color: #E5BF4A;
+     font-family: "Jost",sans-serif;
    } 
     .btn-call:hover
    {
@@ -216,27 +208,28 @@
 
     }
 
-    /* .cashmere-btn
+    /* .cashmere-btn 
     {
       position: absolute;
-      visibility: hidden;
+    
       left: 59px;
       background-color: #E5BF4A;
       display: block;
-      top: 468%;
+      top: 263%;
       height: 41px;
-      bottom: -48px;
-      color: black;
-      width: 444px;
+      
+      width: 440px;
       border-color: #E5BF4A;
-      visibility: hidden;
+      /* visibility:hidden; /
+    }
+      */
+        
+      .order-img :hover.cashmere-btn
+    {
+        /* visibility: visible; */
+        display: contents;
         
     } */
-    .order-img:hover .cashmere-btn
-    {
-        visibility: visible;
-        
-    }
 
     .cake-delightful-text
     {
@@ -261,23 +254,27 @@
         
 
     }
-/* .delightful-btn
+/* .delightful-btn :hover
 {
      position: absolute;
      justify-content: center;
     align-content: center;
-    top: 2002px;
+    top: 263%;
     height: 40px;
- } */
-.delightful-btn:hover
-{
-   background-color: #E5BF4A;
+    background-color: #E5BF4A;
    color: black;
    width: 450px;
    border-color:#E5BF4A;
-}
+    display: block;
+ }
+.delightful-btn :hover
+{
+   
+   
+   display: contents
+} */
 
- .cake-suprise-te
+ .cake-suprise-text
  {
   color: white;
   font-family: "Poiret One", cursive;
