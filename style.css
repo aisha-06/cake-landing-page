@@ -208,28 +208,29 @@ body
 
     }
 
-    /* .cashmere-btn 
+    .cashmere-btn 
     {
       position: absolute;
     
       left: 59px;
       background-color: #E5BF4A;
-      display: block;
+      /* display: block; */
       top: 263%;
       height: 41px;
       
       width: 440px;
       border-color: #E5BF4A;
-      /* visibility:hidden; /
+       
     }
-      */
+     
         
-      .order-img :hover.cashmere-btn
+      .cashmere-btn:hover
     {
-        /* visibility: visible; */
-        display: contents;
+      background-color: black;
+      color: white;
         
-    } */
+        
+    } 
 
     .cake-delightful-text
     {
@@ -254,7 +255,7 @@ body
         
 
     }
-/* .delightful-btn :hover
+.delightful-btn 
 {
      position: absolute;
      justify-content: center;
@@ -265,14 +266,13 @@ body
    color: black;
    width: 450px;
    border-color:#E5BF4A;
-    display: block;
+    
  }
-.delightful-btn :hover
+.delightful-btn:hover
 {
-   
-   
-   display: contents
-} */
+  background-color: black;
+  color: white;
+} 
 
  .cake-suprise-text
  {
@@ -297,20 +297,23 @@ body
    margin-left: 20px;
 
 }
-/* .suprise-btn
+.suprise-btn
 {
  position: absolute;
   justify-content:end;
   align-content:end;
-  top: 2002px;
+  
   height: 40px;
-} */
-.suprise-btn:hover
-{
-   background-color: #E5BF4A;
+  background-color: #E5BF4A;
    color: black;
    width: 450px;
    border-color:#E5BF4A;
+   top: 263%;
+}
+.suprise-btn:hover
+{
+   background-color: black;
+   color: white;
   }
   .play-icon
   {
@@ -646,4 +649,13 @@ body
 {
   
   margin-left: 500px;
+  
+}
+@media only screen and (max-width: 700px) {
+  .cotainer{
+      justify-content: first baseline;
+      margin:auto;
+      justify-content: center;
+      align-items: center;
+  }
 }
