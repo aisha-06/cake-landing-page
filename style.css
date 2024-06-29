@@ -651,11 +651,158 @@ body
   margin-left: 500px;
   
 }
-@media only screen and (max-width: 700px) {
-  .cotainer{
-      justify-content: first baseline;
-      margin:auto;
-      justify-content: center;
+@media (max-width: 1440px) {
+  .header-flex {
+      flex-direction: column;
       align-items: center;
   }
+  .header2-flex {
+      /* flex-direction: column; */
+      gap: 10px;
+      justify-content: center;
+  }
+  .bg-cup-text {
+      top: 150px;
+      margin-left: 10px;
+      font-size: 16px;
+      
+  }
+  .order-btn-div {
+      top: 550px;
+      margin-left: 10px;
+  }
+  .schilers-text {
+      font-size: 24px;
+      margin-left: 0;
+      text-align: center;
+  }
+  .flex2-txt-img {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+  }
+  .order-cake-flex3 {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+  }
+  .cake-cashmere-text,
+  .cake-delightful-text,
+  .cake-suprise-text {
+      font-size: 16px;
+      text-align: center;
+  }
+  .cake-cashmere-price,
+  .cake-delightful-price,
+  .cake-suprise-price {
+      font-size: 14px;
+      text-align: center;
+  }
+  .cashmere-btn 
+    {   
+      left: 270px; 
+      top:116%;
+      height: 41px;
+      width: 440px;     
+    }   
+    .suprise-btn
+{
+     left: 270px;    
+      top:139%;
+      height: 41px;
+      width: 440px;
 }
+.delightful-btn
+{
+    left: 270px;
+     top:159%;
+      height: 41px;
+      width: 440px;    
+}
+  .video-div {
+      padding: 5px;
+  }
+  .video-img {
+      width: 100%;
+      height: auto;
+  }
+  .icon-btn
+  {
+    top: 3800px;
+  }
+  .play-icon
+  {
+    top: 3820px;
+   
+   left: 490px;
+   
+  }
+  .review-flex {
+      flex-direction: column;
+      align-items: center;
+  }
+  .review1,
+  .review2,
+  .review3 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .blog-div {
+      flex-direction: column;
+      align-items: center;
+  }
+  .blog-text
+  {
+    margin-left: 10px;
+  }
+  .blog-btn
+  {
+    margin-left: 50px;
+  }
+  .recipe-flex {
+      flex-direction: column;
+      align-items: center;
+  }
+  .recipe1-flex,
+  .recipe2-flex {
+      margin-top: 10px;
+      padding: 5px;
+      text-align: center;
+  }
+  .follow-text
+  {
+    margin-left: 200px;
+    align-items: center;
+  }
+  .follow-btn
+  {
+    margin-left: 400px;
+  }
+  .cake-div-pic ul {
+      flex-direction: column;
+      align-items: center;
+  }
+  .cake-div-pic ul li {
+      margin-bottom: 10px;
+  }
+  .footer-div {
+      flex-direction: column;
+      align-items: center;
+  }
+  .contact-footer {
+      text-align: center;
+  }
+  .div-loc-footer,
+  .div {
+      text-align: center;
+  }
+  .last-footer
+  {
+    align-items: center;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+
+
