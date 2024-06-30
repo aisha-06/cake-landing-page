@@ -215,7 +215,7 @@ body
       left: 59px;
       background-color: #E5BF4A;
       /* display: block; */
-      top: 263%;
+      top: 267%;
       height: 41px;
       
       width: 440px;
@@ -260,7 +260,7 @@ body
      position: absolute;
      justify-content: center;
     align-content: center;
-    top: 263%;
+    top: 267%;
     height: 40px;
     background-color: #E5BF4A;
    color: black;
@@ -308,7 +308,7 @@ body
    color: black;
    width: 450px;
    border-color:#E5BF4A;
-   top: 263%;
+   top: 267%;
 }
 .suprise-btn:hover
 {
