@@ -72,6 +72,12 @@ body
         -webkit-transform:scale(-1);
         transform:scaleX(-1); 
     }
+    .stick-header
+    {
+      position: sticky; 
+      top: 0%;
+
+    }
     .bg-cupcake
     { 
       background-size: contain;
@@ -214,7 +220,7 @@ body
     
       left: 59px;
       background-color: #E5BF4A;
-      /* display: block; */
+      display: block;
       top: 267%;
       height: 41px;
       
@@ -230,7 +236,9 @@ body
       color: white;
         
         
-    } 
+    }  
+
+
 
     .cake-delightful-text
     {
@@ -436,7 +444,7 @@ body
 
   .img-text-cust-div
   {
-    display: fle
+    display: flex
   }
   .cust-img-div
   {
@@ -445,8 +453,8 @@ body
 
   .cust-name-div
   {
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin-left: 50px;
+    
    
   }
   .blog-text
