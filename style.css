@@ -76,6 +76,7 @@ body
     {
       position: sticky; 
       top: 0%;
+      z-index: 1;
 
     }
     .bg-cupcake
@@ -204,6 +205,7 @@ body
         font-family: "Poiret One", cursive;
         font-size: 25px;
         font-weight: 400;
+
     }
     .cake-cashmere-price
     {
@@ -217,29 +219,21 @@ body
     .cashmere-btn 
     {
       position: absolute;
-    
       left: 59px;
       background-color: #E5BF4A;
-      display: block;
-      top: 267%;
+      top: 263%;
       height: 41px;
-      
       width: 440px;
       border-color: #E5BF4A;
+      visibility: hidden; 
+       cursor: pointer;
        
     }
-     
-        
-      .cashmere-btn:hover
+     .order-img-btn:hover .cashmere-btn
     {
-      background-color: black;
-      color: white;
-        
-        
-    }  
-
-
-
+      visibility: visible;
+      cursor: pointer;
+    }
     .cake-delightful-text
     {
         color: white;
@@ -268,20 +262,21 @@ body
      position: absolute;
      justify-content: center;
     align-content: center;
-    top: 267%;
+    top: 263%;
     height: 40px;
     background-color: #E5BF4A;
    color: black;
    width: 450px;
    border-color:#E5BF4A;
+   visibility: hidden;
+   cursor: pointer;
     
  }
-.delightful-btn:hover
-{
-  background-color: black;
-  color: white;
-} 
-
+ .order-img-btn:hover .delightful-btn
+ {
+   visibility: visible;
+   cursor: pointer;
+ }
  .cake-suprise-text
  {
   color: white;
@@ -310,19 +305,20 @@ body
  position: absolute;
   justify-content:end;
   align-content:end;
-  
   height: 40px;
   background-color: #E5BF4A;
    color: black;
    width: 450px;
    border-color:#E5BF4A;
-   top: 267%;
+   top: 263%;
+   visibility: hidden;
+   cursor: pointer;
 }
-.suprise-btn:hover
-{
-   background-color: black;
-   color: white;
-  }
+.order-img-btn:hover .suprise-btn
+ {
+   visibility: visible;
+   cursor: pointer;
+ }
   .play-icon
   {
     color:black;
@@ -553,7 +549,7 @@ body
 }
 .cake-div-pic
 {
-  /* display: flex; */
+ 
   margin-left: 40px;
   padding: 20px;
 }
@@ -709,21 +705,21 @@ body
   .cashmere-btn 
     {   
       left: 269px; 
-      top:157%;
+      top:116%;
       height: 41px;
       width: 440px;     
     }   
     .suprise-btn
 {
      left: 270px;    
-      top:189%;
+      top:159%;
       height: 41px;
       width: 440px;
 }
 .delightful-btn
 {
     left: 270px;
-     top:216%;
+     top:139%;
       height: 41px;
       width: 440px;    
 }
