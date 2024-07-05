@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
-<body  >
-
+<body class="body" >
+       <form onsubmit="return mode()">
             <div class="header-flex">
                 <div class="header-item-social">
                     <div class="fb">
@@ -49,8 +49,15 @@
                         <li><button style="margin: 10px;" class="footer-btn-about">ABOUT</button></li>
                         <li><button style="margin: 10px;" class="footer-btn-blog">BLOG</button></li>
                         <li><button style="margin: 10px;" class="footer-btn-contact">CONTACT</button></li>
+                        <li class="btn-mode-li"><button class="mode-btn" type="submit" >
+                            <i class="fa-regular fa-lightbulb" style="font-size: xx-large;" ></i>
+                          </button></li>
                     </ul>
-        
+                    
+                </div>
+                <div>
+
+                    
                 </div>
             </div>
             <div>
@@ -73,12 +80,12 @@
                      This is Schilers. Awesome Food Theme. <br>
                      Purchase it and eat Burgers.
                  </h2>
-                 <p >
+                 <p  class="schilers-para">
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore 
                      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi 
                      ut aliquip ex ea commodo consequat. Duis aute dolor in reprehen derit in voluptate velit esse cillum.
                  </p>
-                  <p>
+                  <p class="schilers-para2">
                      Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua.
                      Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea 
                      commodo consequat.
@@ -172,7 +179,7 @@
                           <h4 class="cust-name2" >Wilma Mumduya</h4>
                        </div>
         </div>
-    </div>
+     </div>
             <div class="review3">
                 <ul class="review3-star">
     
@@ -225,7 +232,7 @@
            </div>
          <div class="recipe2-flex">
              <h3 class="h3-recipe" style="margin: 15px;" style="font-size:large;">Tomato, black olive, feta & anchovy tart ulla mco laboris</h3>
-              <p class="recipe-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur voluptatibus eveniet omnis ipsum earum
+              <p class="recipe-para  recipe-para2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur voluptatibus eveniet omnis ipsum earum
                  dolorem facere! Mollitia beatae enim ullam esse placeat accusamus eius libero praesentium illum consequatur. Ea.
                </p>
                  <h3 class="h3-recipe" style="margin: 15px;"> <b>LEARN MORE</b></h3>
@@ -271,11 +278,11 @@
              </div>
               <div>
                 <ul class="footer-ul">
-                    <li> <button style="margin: 10px;" class="footer-btn-home">HOME</button></li>
-                    <li><button style="margin: 10px;" class="footer-btn-cake">CAKES</button></li>
-                    <li><button style="margin: 10px;" class="footer-btn-about">ABOUT</button></li>
-                    <li><button style="margin: 10px;" class="footer-btn-blog">BLOG</button></li>
-                    <li><button style="margin: 10px;" class="footer-btn-contact">CONTACT</button></li>
+                    <li> <button style="margin: 10px;" class="footer-btn-home home">HOME</button></li>
+                    <li><button style="margin: 10px;" class="footer-btn-cake cake">CAKES</button></li>
+                    <li><button style="margin: 10px;" class="footer-btn-about about">ABOUT</button></li>
+                    <li><button style="margin: 10px;" class="footer-btn-blog blog">BLOG</button></li>
+                    <li><button style="margin: 10px;" class="footer-btn-contact contact">CONTACT</button></li>
                 </ul>
               </div>
         </div>
@@ -294,14 +301,14 @@
                          </li>
                     </button>
                               
-                        <button style="margin: 10px;" class="btn-social-footer">
+                        <button style="margin: 10px;" class="btn-social-footer footer2">
                               <li><i class="fa-brands fa-instagram"  ></i>
                                  Instagram
                                </li>
                             </button>
                             
                              
-                        <button style="margin: 10px;" style="padding: 10px;" class="btn-social-footer">
+                        <button style="margin: 10px;" style="padding: 10px;" class="btn-social-footer footer3">
                                 <li  ><i class="fa-brands fa-twitter"  ></i>
                                    Twitter
                                 </li>
@@ -309,14 +316,14 @@
                  </ul>
             </div>
             <div class="div-loc-footer">
-                <i class="fa-solid fa-location-arrow" style="color: white;"  style="font-size: 40px;"></i> 
+                <i class="fa-solid fa-location-arrow loc-icon" style="color: white;"  ></i> 
                 <h2 style="color: #E5BF4A;" style="font-family: Poiret One" , cursive;>Location</h2>
-                <h3 style="color:white" style="font-family: Poiret One" , cursive;>4736 Poe Lane, HOT SPRINGS, <br> Montana-59845</h3> 
+                <h3 style="color:white" style="font-family: Poiret One"  , cursive; class="loc-text">4736 Poe Lane, HOT SPRINGS, <br> Montana-59845</h3> 
             </div>
             <div class="div-contact-footer">
-                <i class="fa-solid fa-phone" style="color: white;"  style="font-size: 40px;"></i>
+                <i class="fa-solid fa-phone contact-icon" style="color: white;"  style="font-size: 40px;"></i>
                 <h2 style="color: #E5BF4A;" style="font-family: Poiret One" , cursive;>Contact</h2>
-                <h3 style="color :white" style="font-family: Poiret One" , cursive;> 
+                <h3 style="color :white" style="font-family: Poiret One" , cursive; class="contact-text"> 
                     <button class="footer-calling-no">
                         913-473-7000
     
@@ -329,11 +336,14 @@
     </section>
     <div class="last-footer">
     
-        <h4 style="color:white;" style="font-family: Poiret One" , cursive; >
+        <h4 style="color:white;" style="font-family: Poiret One" , cursive; class="last-footer-text" >
            Copyright ©2024 All rights reserved | This template is made with 
-           <i class="fa-solid fa-heart" style="color: #E5BF4A;"> </i> by Ayesha!
+           <i class="fa-solid fa-heart heart" style="color: #E5BF4A;"> </i> by Ayesha!
         </h4>
     </div>     
-
+</form>
+    <script src="script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     </body>
 </html>
