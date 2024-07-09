@@ -8,9 +8,11 @@ body
   background-color: black;
   color: white;
   border-color: white;
-  width: 100px;
+  width: 50px;
+  margin: 10px 25px;
+
   /* margin-left: 1350px; */
-  align-items: flex-end;
+  /* align-items: flex-end; */
 }
 
 
@@ -119,6 +121,13 @@ body
    {
     color: white;
     background-color:#E5BF4A;
+    }
+    .btn-mode-li
+    {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 20px;
+      
     }
 
     
@@ -232,7 +241,7 @@ body
       position: absolute;
       left: 59px;
       background-color: #E5BF4A;
-      top: 262%;
+      top: 265%;
       height: 41px;
       width: 449px;
       border-color: #E5BF4A;
@@ -273,7 +282,7 @@ body
      position: absolute;
      justify-content: center;
     align-content: center;
-    top: 263%;
+    top: 265%;
     height: 40px;
     background-color: #E5BF4A;
    color: black;
@@ -321,7 +330,7 @@ body
    color: black;
    width: 450px;
    border-color:#E5BF4A;
-   top: 263%;
+   top: 265%;
    visibility: hidden;
    cursor: pointer;
 }
@@ -733,23 +742,23 @@ body
   .cashmere-btn 
     {   
       left: 269px; 
-      top:116%;
+      top:118.44%;
+      width: 441px;     
       height: 41px;
-      width: 440px;     
     }   
     .suprise-btn
 {
      left: 270px;    
-      top:162%;
-      height: 41px;
-      width: 440px;
+     height: 41px;
+     top:165.4%;
+     width: 441px;  
 }
 .delightful-btn
 {
     left: 270px;
-     top:139%;
-      height: 41px;
-      width: 440px;    
+    top:141.44%;
+    width: 441px;   
+     height: 41px;
 }
   .video-div {
       padding: 5px;
@@ -760,11 +769,11 @@ body
   }
   .icon-btn
   {
-    top: 3950px;
+    top: 3990px;
   }
   .play-icon
   {
-    top: 3968px;
+    top: 4010px;
    
    left: 490px;
    

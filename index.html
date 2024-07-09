@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body class="body" >
-       <form onsubmit="return mode()">
+       <form onsubmit="return mode_light()" onreset="return mode_dark()"  >
+        <form >
             <div class="header-flex">
                 <div class="header-item-social">
                     <div class="fb">
@@ -28,7 +29,9 @@
                             <i class="fa-brands fa-twitter"></i>
                         </button>
                     </div>
+                   
                 </div>
+                
     
                 <div class="header-item-text"> <img src="cake-img/logo.webp" alt="logo"></div>
     
@@ -38,6 +41,15 @@
                             CALL US :+10 783 346 4378
                         </h4>
                     </button>
+                    <div class="btn-mode-div" style="display: flex;" style="margin: 15px;">
+                        <button class="mode-btn light-btn" type="submit" >
+                            <i class="fa-regular fa-lightbulb" style="font-size: 30px;" style="margin: 10px;"></i>
+                            
+                          </button>
+                        <button class="mode-btn" type="reset">
+                            <i class="fa-solid fa-moon"  style="font-size: 30px;"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="stick-header" style="background-color: black;">
@@ -49,9 +61,7 @@
                         <li><button style="margin: 10px;" class="footer-btn-about">ABOUT</button></li>
                         <li><button style="margin: 10px;" class="footer-btn-blog">BLOG</button></li>
                         <li><button style="margin: 10px;" class="footer-btn-contact">CONTACT</button></li>
-                        <li class="btn-mode-li"><button class="mode-btn" type="submit" >
-                            <i class="fa-regular fa-lightbulb" style="font-size: xx-large;" ></i>
-                          </button></li>
+                        
                     </ul>
                     
                 </div>
@@ -340,7 +350,8 @@
            Copyright ©2024 All rights reserved | This template is made with 
            <i class="fa-solid fa-heart heart" style="color: #E5BF4A;"> </i> by Ayesha!
         </h4>
-    </div>     
+    </div> 
+</form>    
 </form>
     <script src="script.js"></script>
    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
